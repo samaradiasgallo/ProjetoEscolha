@@ -1,0 +1,38 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #F1E8E8;
+  font-family: "Baskervville SC";
+  color: black;
+  font-size: 30px;
+}
+
+input[type="text"]{
+  font-size: 30px;
+  width: 230px;
+  border: 2px solid black;
+  border-radius: 100px;
+}
+
+input[type="checkbox"]{
+  transform:scale(2);
+  margin-right: 30px;
+}
+
+.esconde{
+  display: none;
+}
+
+.botao{
+  background-color: orange;
+  border: 2px solid orange;
+  border-radius: 200px;
+  color: yellow;
+  font-size: 30px;
+  font-family: "Baskervville SC";
+}
+
+.botao:hover{
+  background-color: rgb(10,167,182);
+  border: 2px solid blue;
+}
